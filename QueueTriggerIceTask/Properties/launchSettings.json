@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "QueueTriggerIceTask": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7237"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 31732,
+      "useSSL": false
+    }
+  }
+}
